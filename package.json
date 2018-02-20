@@ -1,0 +1,31 @@
+{
+  "name": "advertisement-scanner-file-async",
+  "version": "1.0.0",
+  "description": "Capture Bluetooth LE advertisements and save to CSV file",
+  "main": "aooAdvScannerFileAsync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiomware/advertisement-scanner-file-async.git"
+  },
+  "keywords": [
+    "Netrunr Bluetooth Gateway",
+    "Bluetooth Low Energy"
+  ],
+  "author": "Axiomware Systems Inc <swdev@axiomware.com> (http://www.axiomware.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axiomware/advertisement-scanner-file-async/issues"
+  },
+  "homepage": "https://github.com/axiomware/advertisement-scanner-file-async#readme",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^5.0.1",
+    "preferences": "^1.0.2",
+    "clui": "^0.3.6",
+    "netrunr-gapi-async": "^1.0.1"
+  }
+}
